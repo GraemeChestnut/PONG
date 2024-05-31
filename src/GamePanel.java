@@ -14,7 +14,10 @@ public class GamePanel extends Jpanel implements Runnable{
     Image image;
     Graphics graphics;
     Random random;
-    Paddle paddle;
+    Paddle paddle1;
+    Paddle paddle2;
+    Ball ball;
+    Score score;
 
 
     GamePanel(){
